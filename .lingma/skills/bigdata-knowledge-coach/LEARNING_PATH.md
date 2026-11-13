@@ -24,8 +24,8 @@
 - IO/NIO
 
 **学习资源：**
-- [认识并发编程](base/java/并发编程/认识并发编程.md)
-- [并发工具包](base/java/并发编程/并发工具类concurrent.md)
+- [认识并发编程](../../../base/java/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E8%AE%A4%E8%AF%86%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.md)
+- [并发工具包](../../../base/java/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E5%B7%A5%E5%85%B7%E7%B1%BBconcurrent.md)
 
 **实践任务：**
 - 实现线程安全的计数器
@@ -43,8 +43,8 @@
 - 进程管理
 
 **学习资源：**
-- [Shell学习](devops/Shell学习.xmind)
-- [Linux学习](devops/Linux学习.xmind)
+- [Shell学习](../../../devops/Shell%E5%AD%A6%E4%B9%A0.xmind)
+- [Linux学习](../../../devops/Linux%E5%AD%A6%E4%B9%A0.xmind)
 
 **实践任务：**
 - 编写自动化部署脚本
@@ -62,8 +62,8 @@
 - 查找算法
 
 **学习资源：**
-- [数据结构](base/datastructure/数据结构.md)
-- [算法题解](base/algorithm/算法题解.md)
+- [数据结构](../../../base/datastructure/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
+- [算法题解](../../../base/algorithm/%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3.md)
 
 **实践任务：**
 - LeetCode刷题50道
@@ -81,8 +81,8 @@
 - 分布式事务
 
 **学习资源：**
-- [分布式架构](base/分布式理论/分布式架构.md)
-- [Raft一致性算法](base/分布式理论/Raft一致性算法.md)
+- [分布式架构](../../../base/%E5%88%86%E5%B8%83%E5%BC%8F%E7%90%86%E8%AE%BA/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84.md)
+- [Raft一致性算法](../../../base/%E5%88%86%E5%B8%83%E5%BC%8F%E7%90%86%E8%AE%BA/Raft%E4%B8%80%E8%87%B4%E6%80%A7%E7%AE%97%E6%B3%95.md)
 
 **实践任务：**
 - 理解Etcd的Raft实现
@@ -106,8 +106,8 @@
 - 高可用配置
 
 **学习资源：**
-- [HDFSOverView](bigdata/hadoop/HDFS/HDFSOverView.xmind)
-- [HDFS集群管理](bigdata/hadoop/HDFS/HDFS集群管理.md)
+- [HDFSOverView](../../../bigdata/hadoop/HDFS/HDFSOverView.xmind)
+- [HDFS集群管理](../../../bigdata/hadoop/HDFS/HDFS%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86.md)
 
 **实践任务：**
 - 搭建Hadoop伪分布式环境
@@ -125,8 +125,8 @@
 - 分区策略
 
 **学习资源：**
-- [MapReduce概览](bigdata/hadoop/MapReduce/MapReduceOverView.xmind)
-- [MapReduce的工作原理剖析](bigdata/hadoop/MapReduce/MapReduce的工作原理剖析.md)
+- [MapReduce概览](../../../bigdata/hadoop/MapReduce/MapReduceOverView.xmind)
+- [MapReduce的工作原理剖析](../../../bigdata/hadoop/MapReduce/MapReduce%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90.md)
 
 **实践任务：**
 - 编写WordCount程序
@@ -143,7 +143,7 @@
 - 应用提交流程
 
 **学习资源：**
-- [YARN快速入门](bigdata/hadoop/Yarn/YARN快速入门.md)
+- [YARN快速入门](../../../bigdata/hadoop/Yarn/YARN%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)
 
 **实践任务：**
 - 提交MR作业到YARN
@@ -160,9 +160,9 @@
 - 性能调优
 
 **学习资源：**
-- [HiveOverwrite](bigdata/olap/hive/HiveOverwrite.md)
-- [Hive调优指南](bigdata/olap/hive/Hive调优指南.xmind)
-- [Hive编程指南读书笔记](bigdata/olap/hive/hive编程指南)
+- [HiveOverwrite](../../../bigdata/olap/hive/HiveOverwrite.md)
+- [Hive调优指南](../../../bigdata/olap/hive/Hive%E8%B0%83%E4%BC%98%E6%8C%87%E5%8D%97.xmind)
+- [Hive编程指南读书笔记](../../../bigdata/olap/hive/hive%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97)
 
 **实践任务：**
 - 创建分区表
@@ -188,8 +188,8 @@
 - DAG执行
 
 **学习资源：**
-- [SparkCore](bigdata/engine/spark/spark%20core/Spark%20Core.xmind)
-- [SparkOperator](bigdata/engine/spark/spark%20core/Spark%20Operator.xmind)
+- [SparkCore](../../../bigdata/engine/spark/spark%20core/Spark%20Core.xmind)
+- [SparkOperator](../../../bigdata/engine/spark/spark%20core/Spark%20Operator.xmind)
 
 **实践任务：**
 - RDD基本操作练习
@@ -207,8 +207,8 @@
 - UDF开发
 
 **学习资源：**
-- [SparkSQL](bigdata/engine/spark/spark%20sql/Spark%20SQL.xmind)
-- [SparkSQL优化分析](bigdata/engine/spark/spark%20sql/SparkSQL优化分析.md)
+- [SparkSQL](../../../bigdata/engine/spark/spark%20sql/Spark%20SQL.xmind)
+- [SparkSQL优化分析](../../../bigdata/engine/spark/spark%20sql/SparkSQL%E4%BC%98%E5%8C%96%E5%88%86%E6%9E%90.md)
 
 **实践任务：**
 - 使用DataFrame进行数据分析
@@ -226,7 +226,7 @@
 - 状态管理
 
 **学习资源：**
-- [SparkStreaming](bigdata/engine/spark/spark%20streaming/Spark%20Steaming.xmind)
+- [SparkStreaming](../../../bigdata/engine/spark/spark%20streaming/Spark%20Steaming.xmind)
 
 **实践任务：**
 - 实时词频统计
@@ -243,8 +243,8 @@
 - 性能调优
 
 **学习资源：**
-- [从浅到深剖析Spark源码](bigdata/engine/spark/从浅到深剖析Spark源码.md)
-- [Spark生产实践](bigdata/engine/spark/practice/Spark生产实践.md)
+- [从浅到深剖析Spark源码](../../../bigdata/engine/spark/%E4%BB%8E%E6%B5%85%E5%88%B0%E6%B7%B1%E5%89%96%E6%9E%90Spark%E6%BA%90%E7%A0%81.md)
+- [Spark生产实践](../../../bigdata/engine/spark/practice/Spark%E7%94%9F%E4%BA%A7%E5%AE%9E%E8%B7%B5.md)
 
 **实践任务：**
 - 阅读TaskScheduler源码
@@ -264,8 +264,8 @@
 - 并行度和任务链
 
 **学习资源：**
-- [FlinkOverview](bigdata/engine/flink/core/FlinkOverview.md)
-- [DataStream API](bigdata/engine/flink/core/FlinkDataStream%20API.xmind)
+- [FlinkOverview](../../../bigdata/engine/flink/core/FlinkOverview.md)
+- [DataStream API](../../../bigdata/engine/flink/core/FlinkDataStream%20API.xmind)
 
 **实践任务：**
 - 搭建Flink本地环境
@@ -283,8 +283,8 @@
 - Trigger和Evictor
 
 **学习资源：**
-- [第4章时间与窗口](bigdata/engine/flink/books/Flink内核原理与实现/第4章时间与窗口.xmind)
-- [Flink窗口实现应用原理](bigdata/engine/flink/sourcecode/Flink窗口实现应用原理.md)
+- [第4章时间与窗口](../../../bigdata/engine/flink/books/Flink%E5%86%85%E6%A0%B8%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E7%8E%B0/%E7%AC%AC4%E7%AB%A0%E6%97%B6%E9%97%B4%E4%B8%8E%E7%AA%97%E5%8F%A3.xmind)
+- [Flink窗口实现应用原理](../../../bigdata/engine/flink/sourcecode/Flink%E7%AA%97%E5%8F%A3%E5%AE%9E%E7%8E%B0%E5%BA%94%E7%94%A8%E5%8E%9F%E7%90%86.md)
 
 **实践任务：**
 - 实现滚动窗口聚合
@@ -302,9 +302,9 @@
 - Savepoint
 
 **学习资源：**
-- [Checkpoint机制](bigdata/engine/flink/core/Checkpoint机制.md)
-- [第7章状态原理](bigdata/engine/flink/books/Flink内核原理与实现/第7章状态原理.xmind)
-- [FlinkCheckpoint源码分析](bigdata/engine/flink/sourcecode/FlinkCheckpoint源码分析.md)
+- [Checkpoint机制](../../../bigdata/engine/flink/core/Checkpoint%E6%9C%BA%E5%88%B6.md)
+- [第7章状态原理](../../../bigdata/engine/flink/books/Flink%E5%86%85%E6%A0%B8%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E7%8E%B0/%E7%AC%AC7%E7%AB%A0%E7%8A%B6%E6%80%81%E5%8E%9F%E7%90%86.xmind)
+- [FlinkCheckpoint源码分析](../../../bigdata/engine/flink/sourcecode/FlinkCheckpoint%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)
 
 **实践任务：**
 - 使用ValueState实现去重
@@ -322,8 +322,8 @@
 - Temporal Table Join
 
 **学习资源：**
-- [TableSQLOverview](bigdata/engine/flink/core/TableSQLOverview.md)
-- [FlinkSQL源码解析](bigdata/engine/flink/sourcecode/FlinkSQL源码解析.md)
+- [TableSQLOverview](../../../bigdata/engine/flink/core/TableSQLOverview.md)
+- [FlinkSQL源码解析](../../../bigdata/engine/flink/sourcecode/FlinkSQL%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
 
 **实践任务：**
 - 使用Flink SQL实现ETL
@@ -341,10 +341,10 @@
 - 性能调优
 
 **学习资源：**
-- [Flink CEP](bigdata/engine/flink/core/Flink%20Cep.xmind)
-- [ProcessFunction API](bigdata/engine/flink/core/ProcessFunction%20API.xmind)
-- [记录一次Flink反压问题](bigdata/engine/flink/practice/记录一次Flink反压问题.md)
-- [Flink SQL调优](bigdata/engine/flink/practice/Flink%20SQL调优.xmind)
+- [Flink CEP](../../../bigdata/engine/flink/core/Flink%20Cep.xmind)
+- [ProcessFunction API](../../../bigdata/engine/flink/core/ProcessFunction%20API.xmind)
+- [记录一次Flink反压问题](../../../bigdata/engine/flink/practice/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Flink%E5%8F%8D%E5%8E%8B%E9%97%AE%E9%A2%98.md)
+- [Flink SQL调优](../../../bigdata/engine/flink/practice/Flink%20SQL%E8%B0%83%E4%BC%98.xmind)
 
 **实践任务：**
 - 实现欺诈检测CEP规则
@@ -369,8 +369,8 @@
 - Compaction机制
 
 **学习资源：**
-- [HBase概览](bigdata/store/hbase/HBaseOverview.md)
-- [Hbase过滤器](bigdata/store/hbase/Hbase过滤器.md)
+- [HBase概览](../../../bigdata/store/hbase/HBaseOverview.md)
+- [Hbase过滤器](../../../bigdata/store/hbase/Hbase%E8%BF%87%E6%BB%A4%E5%99%A8.md)
 
 **实践任务：**
 - 设计RowKey
@@ -388,8 +388,8 @@
 - Write Ahead Log
 
 **学习资源：**
-- [rocksDB概述](bigdata/store/rocksdb/RocksdbOverview.md)
-- [LSM存储模型](base/计算机理论/LSM存储模型.md)
+- [rocksDB概述](../../../bigdata/store/rocksdb/RocksdbOverview.md)
+- [LSM存储模型](../../../base/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%90%86%E8%AE%BA/LSM%E5%AD%98%E5%82%A8%E6%A8%A1%E5%9E%8B.md)
 
 **实践任务：**
 - 理解RocksDB在Flink中的应用
@@ -408,8 +408,8 @@
 - 分布式表
 
 **学习资源：**
-- [ClickHouse快速入门](bigdata/olap/clickhouse/ClickHouseOverView.md)
-- [ClickHouse表引擎](bigdata/olap/clickhouse/ClickHouse表引擎.xmind)
+- [ClickHouse快速入门](../../../bigdata/olap/clickhouse/ClickHouseOverView.md)
+- [ClickHouse表引擎](../../../bigdata/olap/clickhouse/ClickHouse%E8%A1%A8%E5%BC%95%E6%93%8E.xmind)
 
 **实践任务：**
 - 创建MergeTree表
@@ -427,9 +427,9 @@
 - Predicate Pushdown
 
 **学习资源：**
-- [KuduOverView](bigdata/olap/kudu/KuduOverView.md)
-- [ImpalaOverView](bigdata/olap/impala/ImpalaOverView.md)
-- [Kudu论文阅读](bigdata/olap/kudu/paper/KuduPaper阅读.md)
+- [KuduOverView](../../../bigdata/olap/kudu/KuduOverView.md)
+- [ImpalaOverView](../../../bigdata/olap/impala/ImpalaOverView.md)
+- [Kudu论文阅读](../../../bigdata/olap/kudu/paper/KuduPaper%E9%98%85%E8%AF%BB.md)
 
 **实践任务：**
 - 创建Kudu表
@@ -449,9 +449,9 @@
 - Rebalance机制
 
 **学习资源：**
-- [kafka概览](bigdata/mq/kafka/KafkaOverView.xmind)
-- [生产者源码剖析](bigdata/mq/kafka/生产者源码剖析.md)
-- [消费者源码剖析](bigdata/mq/kafka/消费者源码剖析.md)
+- [kafka概览](../../../bigdata/mq/kafka/KafkaOverView.xmind)
+- [生产者源码剖析](../../../bigdata/mq/kafka/%E7%94%9F%E4%BA%A7%E8%80%85%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90.md)
+- [消费者源码剖析](../../../bigdata/mq/kafka/%E6%B6%88%E8%B4%B9%E8%80%85%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90.md)
 
 **实践任务：**
 - 创建Topic
@@ -474,10 +474,10 @@
 - Compaction策略
 
 **学习资源：**
-- [Hudi概览](bigdata/datalake/hudi/hudiOverview.md)
-- [Hudi整合Spark](bigdata/datalake/hudi/hudiWithSpark.md)
-- [Hudi整合Flink](bigdata/datalake/hudi/hudiWithFlink.md)
-- [Hudi原理分析](bigdata/datalake/hudi/hudi原理分析.md)
+- [Hudi概览](../../../bigdata/datalake/hudi/hudiOverview.md)
+- [Hudi整合Spark](../../../bigdata/datalake/hudi/hudiWithSpark.md)
+- [Hudi整合Flink](../../../bigdata/datalake/hudi/hudiWithFlink.md)
+- [Hudi原理分析](../../../bigdata/datalake/hudi/hudi%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90.md)
 
 **实践任务：**
 - 使用Spark写入Hudi表
@@ -495,8 +495,8 @@
 - Partition Evolution
 
 **学习资源：**
-- [IceBerg概览](bigdata/datalake/iceberg/icebergOverview.md)
-- [IceBerg整合Flink](bigdata/datalake/iceberg/icebergWithFlink.md)
+- [IceBerg概览](../../../bigdata/datalake/iceberg/icebergOverview.md)
+- [IceBerg整合Flink](../../../bigdata/datalake/iceberg/icebergWithFlink.md)
 
 **实践任务：**
 - 创建Iceberg表
@@ -513,8 +513,8 @@
 - Flink原生集成
 
 **学习资源：**
-- [Paimon概览](bigdata/datalake/paimon/PaimonOverview.md)
-- [Flink操作Paimon](bigdata/datalake/paimon/PaimonOnFlink.md)
+- [Paimon概览](../../../bigdata/datalake/paimon/PaimonOverview.md)
+- [Flink操作Paimon](../../../bigdata/datalake/paimon/PaimonOnFlink.md)
 
 **实践任务：**
 - 创建Paimon主键表
@@ -537,9 +537,9 @@
 - 总线矩阵
 
 **学习资源：**
-- [数据建模](datawarehouse/理论/DataModeler.md)
-- [数据仓库建模](datawarehouse/理论/数据仓库建模.xmind)
-- [数据仓库实战](datawarehouse/理论/数据仓库实战.md)
+- [数据建模](../../../datawarehouse/%E7%90%86%E8%AE%BA/DataModeler.md)
+- [数据仓库建模](../../../datawarehouse/%E7%90%86%E8%AE%BA/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E5%BB%BA%E6%A8%A1.xmind)
+- [数据仓库实战](../../../datawarehouse/%E7%90%86%E8%AE%BA/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E5%AE%9E%E6%88%98.md)
 
 **实践任务：**
 - 设计电商数仓模型
@@ -557,7 +557,7 @@
 - 数据质量
 
 **学习资源：**
-- [离线数仓.jpg](datawarehouse/img/离线数仓.jpg)
+- [离线数仓.jpg](../../../datawarehouse/img/%E7%A6%BB%E7%BA%BF%E6%95%B0%E4%BB%93.jpg)
 
 **实践任务：**
 - 使用Azkaban调度任务
@@ -575,8 +575,8 @@
 - 流批一体
 
 **学习资源：**
-- [基于Flink的实时数仓建设](datawarehouse/方案实践/基于Flink的实时数仓建设.md)
-- [实时数仓架构](datawarehouse/img/实时数仓架构.jpg)
+- [基于Flink的实时数仓建设](../../../datawarehouse/%E6%96%B9%E6%A1%88%E5%AE%9E%E8%B7%B5/%E5%9F%BA%E4%BA%8EFlink%E7%9A%84%E5%AE%9E%E6%97%B6%E6%95%B0%E4%BB%93%E5%BB%BA%E8%AE%BE.md)
+- [实时数仓架构](../../../datawarehouse/img/%E5%AE%9E%E6%97%B6%E6%95%B0%E4%BB%93%E6%9E%B6%E6%9E%84.jpg)
 
 **实践任务：**
 - 使用Flink CDC采集Binlog
@@ -594,9 +594,9 @@
 - 数据服务
 
 **学习资源：**
-- [数据中台设计](datawarehouse/数据中台模块设计/数据中台设计.md)
-- [thoth自研元数据平台设计](datawarehouse/数据中台模块设计/thoth自研元数据平台设计.md)
-- [数据中台读书笔记](datawarehouse/数据中台读书笔记.md)
+- [数据中台设计](../../../datawarehouse/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E6%A8%A1%E5%9D%97%E8%AE%BE%E8%AE%A1/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E8%AE%BE%E8%AE%A1.md)
+- [thoth自研元数据平台设计](../../../datawarehouse/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E6%A8%A1%E5%9D%97%E8%AE%BE%E8%AE%A1/thoth%E8%87%AA%E7%A0%94%E5%85%83%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E8%AE%BE%E8%AE%A1.md)
+- [数据中台读书笔记](../../../datawarehouse/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
 
 **实践任务：**
 - 设计元数据模型
@@ -619,9 +619,9 @@
 - Spark on K8s
 
 **学习资源：**
-- [Flink On Native K8s实践](bigdata/engine/flink/devops/Flink%20On%20Native%20K8s.md)
-- [Flink On K8s Operator](bigdata/engine/flink/devops/Flink%20On%20K8s%20Operator.md)
-- [openshift基础命令](devops/k8s-openshift客户端命令使用.md)
+- [Flink On Native K8s实践](../../../bigdata/engine/flink/devops/Flink%20On%20Native%20K8s.md)
+- [Flink On K8s Operator](../../../bigdata/engine/flink/devops/Flink%20On%20K8s%20Operator.md)
+- [openshift基础命令](../../../devops/k8s-openshift%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8.md)
 
 **实践任务：**
 - 部署K8s集群
@@ -639,9 +639,9 @@
 - Kafka监控
 
 **学习资源：**
-- [Prometheus实战](servicemonitor/Prometheus/Prometheus实战.md)
-- [搭建Flink任务指标监控系统](bigdata/engine/flink/monitor/搭建Flink任务指标监控系统.md)
-- [Kafka监控](bigdata/mq/kafka/Kafka监控.md)
+- [Prometheus实战](../../../servicemonitor/Prometheus/Prometheus%E5%AE%9E%E6%88%98.md)
+- [搭建Flink任务指标监控系统](../../../bigdata/engine/flink/monitor/%E6%90%AD%E5%BB%BAFlink%E4%BB%BB%E5%8A%A1%E6%8C%87%E6%A0%87%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F.md)
+- [Kafka监控](../../../bigdata/mq/kafka/Kafka%E7%9B%91%E6%8E%A7.md)
 
 **实践任务：**
 - 部署Prometheus + Grafana
@@ -666,8 +666,8 @@
 4. Spark Shuffle
 
 **学习资源：**
-- [Flink内核源码分析](bigdata/engine/flink/sourcecode/Flink内核源码分析.md)
-- [Flink内幕解析](bigdata/engine/flink/sourcecode/Flink内幕解析.md)
+- [Flink内核源码分析](../../../bigdata/engine/flink/sourcecode/Flink%E5%86%85%E6%A0%B8%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)
+- [Flink内幕解析](../../../bigdata/engine/flink/sourcecode/Flink%E5%86%85%E5%B9%95%E8%A7%A3%E6%9E%90.md)
 
 ---
 
@@ -681,8 +681,8 @@
 - 内存管理
 
 **学习资源：**
-- [Flink Runtime核心机制浅入深出](bigdata/engine/flink/practice/Flink%20Runtime核心机制浅入深出.md)
-- [Hive调优指南](bigdata/olap/hive/Hive调优指南.xmind)
+- [Flink Runtime核心机制浅入深出](../../../bigdata/engine/flink/practice/Flink%20Runtime%E6%A0%B8%E5%BF%83%E6%9C%BA%E5%88%B6%E6%B5%85%E5%85%A5%E6%B7%B1%E5%87%BA.md)
+- [Hive调优指南](../../../bigdata/olap/hive/Hive%E8%B0%83%E4%BC%98%E6%8C%87%E5%8D%97.xmind)
 
 ---
 
@@ -695,7 +695,7 @@
 - IoT数据处理
 
 **学习资源：**
-- [数据中台设计](datawarehouse/数据中台模块设计/数据中台设计.md)
+- [数据中台设计](../../../datawarehouse/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E6%A8%A1%E5%9D%97%E8%AE%BE%E8%AE%A1/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E8%AE%BE%E8%AE%A1.md)
 
 ---
 
@@ -708,7 +708,7 @@
 - AI与大数据融合
 
 **学习资源：**
-- [Flink1.14新特性](bigdata/engine/flink/feature/Flink1.14新特性.md)
+- [Flink1.14新特性](../../../bigdata/engine/flink/feature/Flink1.14%E6%96%B0%E7%89%B9%E6%80%A7.md)
 
 ---
 

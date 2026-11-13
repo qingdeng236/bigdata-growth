@@ -58,7 +58,7 @@
 ...
 
 ## 相关文档
-- [Checkpoint机制](bigdata/engine/flink/core/Checkpoint机制.md)
+- [Checkpoint机制](../../../bigdata/engine/flink/core/Checkpoint%E6%9C%BA%E5%88%B6.md)
 - [FlinkCheckpoint源码分析](...)
 
 你想深入了解哪个部分？

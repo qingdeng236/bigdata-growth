@@ -362,6 +362,6 @@ spark:
 
 ## 相关文档
 
-- [技术知识库](bigdata/)
+- [技术知识库](../../../bigdata)
 - [面试题库](INTERVIEW_QUESTIONS.md)
 - [学习路径](LEARNING_PATH.md)

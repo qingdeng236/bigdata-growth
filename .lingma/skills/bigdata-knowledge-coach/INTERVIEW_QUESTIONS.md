@@ -29,7 +29,7 @@
 - Watermark的作用是触发窗口计算
 - 如何处理乱序数据
 
-**相关文档：** [第4章时间与窗口](bigdata/engine/flink/books/Flink内核原理与实现/第4章时间与窗口.xmind)
+**相关文档：** [第4章时间与窗口](../../../bigdata/engine/flink/books/Flink%E5%86%85%E6%A0%B8%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E7%8E%B0/%E7%AC%AC4%E7%AB%A0%E6%97%B6%E9%97%B4%E4%B8%8E%E7%AA%97%E5%8F%A3.xmind)
 
 ---
 
@@ -64,8 +64,8 @@
    - 使用RocksDB State Backend
 
 **相关文档：**
-- [Checkpoint机制](bigdata/engine/flink/core/Checkpoint机制.md)
-- [FlinkCheckpoint源码分析](bigdata/engine/flink/sourcecode/FlinkCheckpoint源码分析.md)
+- [Checkpoint机制](../../../bigdata/engine/flink/core/Checkpoint%E6%9C%BA%E5%88%B6.md)
+- [FlinkCheckpoint源码分析](../../../bigdata/engine/flink/sourcecode/FlinkCheckpoint%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)
 
 ---
 
@@ -83,7 +83,7 @@
 - 状态 > 1GB：RocksDBStateBackend
 - 需要增量Checkpoint：必须用RocksDB
 
-**相关文档：** [RocksDB On Flink](bigdata/store/rocksdb/RocksDB%20On%20Flink.md)
+**相关文档：** [RocksDB On Flink](../../../bigdata/store/rocksdb/RocksDB%20On%20Flink.md)
 
 ---
 
@@ -111,8 +111,8 @@
    - 调整网络缓冲区大小
 
 **相关文档：**
-- [记录一次Flink反压问题](bigdata/engine/flink/practice/记录一次Flink反压问题.md)
-- [Flink网络流控及反压](bigdata/engine/flink/sourcecode/Flink网络流控及反压.md)
+- [记录一次Flink反压问题](../../../bigdata/engine/flink/practice/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Flink%E5%8F%8D%E5%8E%8B%E9%97%AE%E9%A2%98.md)
+- [Flink网络流控及反压](../../../bigdata/engine/flink/sourcecode/Flink%E7%BD%91%E7%BB%9C%E6%B5%81%E6%8E%A7%E5%8F%8A%E5%8F%8D%E5%8E%8B.md)
 
 ---
 
@@ -178,8 +178,8 @@
    - 提交到集群执行
 
 **相关文档：**
-- [FlinkSQL源码解析](bigdata/engine/flink/sourcecode/FlinkSQL源码解析.md)
-- [TableSQLOverview](bigdata/engine/flink/core/TableSQLOverview.md)
+- [FlinkSQL源码解析](../../../bigdata/engine/flink/sourcecode/FlinkSQL%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
+- [TableSQLOverview](../../../bigdata/engine/flink/core/TableSQLOverview.md)
 
 ---
 
@@ -207,7 +207,7 @@
    - MySQL Sink：使用幂等INSERT或UPDATE
    - HDFS Sink：原子重命名
 
-**相关文档：** [Flink踩坑指南](bigdata/engine/flink/practice/Flink踩坑.xmind)
+**相关文档：** [Flink踩坑指南](../../../bigdata/engine/flink/practice/Flink%E8%B8%A9%E5%9D%91.xmind)
 
 ---
 
@@ -235,8 +235,8 @@
 - Operator：适合大规模部署，运维友好
 
 **相关文档：**
-- [Flink On Native K8s实践](bigdata/engine/flink/devops/Flink%20On%20Native%20K8s.md)
-- [Flink On K8s Operator](bigdata/engine/flink/devops/Flink%20On%20K8s%20Operator.md)
+- [Flink On Native K8s实践](../../../bigdata/engine/flink/devops/Flink%20On%20Native%20K8s.md)
+- [Flink On K8s Operator](../../../bigdata/engine/flink/devops/Flink%20On%20K8s%20Operator.md)
 
 ---
 
@@ -275,7 +275,7 @@
    .rebalance()  // 轮询分发
    ```
 
-**相关文档：** [Flink SQL调优](bigdata/engine/flink/practice/Flink%20SQL调优.xmind)
+**相关文档：** [Flink SQL调优](../../../bigdata/engine/flink/practice/Flink%20SQL%E8%B0%83%E4%BC%98.xmind)
 
 ---
 
@@ -291,7 +291,7 @@
 - TaskScheduler
 - Executor
 
-**相关文档：** [SparkCore](bigdata/engine/spark/spark%20core/Spark%20Core.xmind)
+**相关文档：** [SparkCore](../../../bigdata/engine/spark/spark%20core/Spark%20Core.xmind)
 
 ---
 
@@ -331,7 +331,7 @@
    - 二进制序列化
    - 性能提升3-5倍
 
-**相关文档：** [Spark计算引擎和Shuffle](bigdata/engine/spark/Spark计算引擎和Shuffle.md)
+**相关文档：** [Spark计算引擎和Shuffle](../../../bigdata/engine/spark/Spark%E8%AE%A1%E7%AE%97%E5%BC%95%E6%93%8E%E5%92%8CShuffle.md)
 
 ---
 
@@ -369,7 +369,7 @@
    spark.serializer = "org.apache.spark.serializer.KryoSerializer"
    ```
 
-**相关文档：** [Spark生产实践](bigdata/engine/spark/practice/Spark生产实践.md)
+**相关文档：** [Spark生产实践](../../../bigdata/engine/spark/practice/Spark%E7%94%9F%E4%BA%A7%E5%AE%9E%E8%B7%B5.md)
 
 ---
 
@@ -401,7 +401,7 @@
    - Topic分Partition
    - 并行读写
 
-**相关文档：** [kafka权威指南读书笔记](bigdata/mq/kafka/kafka权威指南/)
+**相关文档：** [kafka权威指南读书笔记](../../../bigdata/mq/kafka/kafka%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
 
 ---
 
@@ -456,7 +456,7 @@
    - 解决：增加session.timeout.ms
    - 解决：合理设置max.poll.interval.ms
 
-**相关文档：** [消费者源码剖析](bigdata/mq/kafka/消费者源码剖析.md)
+**相关文档：** [消费者源码剖析](../../../bigdata/mq/kafka/%E6%B6%88%E8%B4%B9%E8%80%85%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90.md)
 
 ---
 
@@ -482,7 +482,7 @@
    - 定义业务过程和维度关系
    - 确保数据一致性
 
-**相关文档：** [数据建模](datawarehouse/理论/DataModeler.md)
+**相关文档：** [数据建模](../../../datawarehouse/%E7%90%86%E8%AE%BA/DataModeler.md)
 
 ---
 
@@ -521,7 +521,7 @@ ADS（应用数据层）
    - 高度聚合
    - 直接服务于报表
 
-**相关文档：** [数据仓库实战](datawarehouse/理论/数据仓库实战.md)
+**相关文档：** [数据仓库实战](../../../datawarehouse/%E7%90%86%E8%AE%BA/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E5%AE%9E%E6%88%98.md)
 
 ---
 
@@ -554,7 +554,7 @@ WHERE start_date <= '2024-01-01'
   AND end_date > '2024-01-01';
 ```
 
-**相关文档：** [拉链表.jpg](datawarehouse/img/拉链表.jpg)
+**相关文档：** [拉链表.jpg](../../../datawarehouse/img/%E6%8B%89%E9%93%BE%E8%A1%A8.jpg)
 
 ---
 
@@ -595,7 +595,7 @@ MySQL Binlog → Canal/Debezium → Kafka
 - 数据存储：Hudi、Iceberg、Kudu
 - OLAP查询：Presto、Impala、ClickHouse
 
-**相关文档：** [基于Flink的实时数仓建设](datawarehouse/方案实践/基于Flink的实时数仓建设.md)
+**相关文档：** [基于Flink的实时数仓建设](../../../datawarehouse/%E6%96%B9%E6%A1%88%E5%AE%9E%E8%B7%B5/%E5%9F%BA%E4%BA%8EFlink%E7%9A%84%E5%AE%9E%E6%97%B6%E6%95%B0%E4%BB%93%E5%BB%BA%E8%AE%BE.md)
 
 ---
 
@@ -631,7 +631,7 @@ NameNode返回DataNode列表（按距离排序）
 Client → 最近的DataNode读取数据
 ```
 
-**相关文档：** [HDFSOverView](bigdata/hadoop/HDFS/HDFSOverView.xmind)
+**相关文档：** [HDFSOverView](../../../bigdata/hadoop/HDFS/HDFSOverView.xmind)
 
 ---
 
@@ -653,7 +653,7 @@ Client → 最近的DataNode读取数据
    - ZooKeeper选举
    - 自动切换Active/Standby
 
-**相关文档：** [Hadoop高可用配置](bigdata/hadoop/Hadoop高可用配置.md)
+**相关文档：** [Hadoop高可用配置](../../../bigdata/hadoop/Hadoop%E9%AB%98%E5%8F%AF%E7%94%A8%E9%85%8D%E7%BD%AE.md)
 
 ---
 
@@ -679,9 +679,9 @@ Client → 最近的DataNode读取数据
 - Flink流式场景：Paimon
 
 **相关文档：**
-- [Hudi概览](bigdata/datalake/hudi/hudiOverview.md)
-- [IceBerg概览](bigdata/datalake/iceberg/icebergOverview.md)
-- [Paimon概览](bigdata/datalake/paimon/PaimonOverview.md)
+- [Hudi概览](../../../bigdata/datalake/hudi/hudiOverview.md)
+- [IceBerg概览](../../../bigdata/datalake/iceberg/icebergOverview.md)
+- [Paimon概览](../../../bigdata/datalake/paimon/PaimonOverview.md)
 
 ---
 
@@ -704,7 +704,7 @@ Client → 最近的DataNode读取数据
 - 低频更新（天级）：COW
 - 高频更新（分钟级）：MOR
 
-**相关文档：** [Hudi原理分析](bigdata/datalake/hudi/hudi原理分析.md)
+**相关文档：** [Hudi原理分析](../../../bigdata/datalake/hudi/hudi%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90.md)
 
 ---
 
@@ -773,8 +773,8 @@ Client → 最近的DataNode读取数据
 5. 智能索引
 
 **相关文档：**
-- [实时OLAP架构](datawarehouse/img/实时OLAP架构.jpg)
-- [Presto架构](datawarehouse/img/presto架构.jpg)
+- [实时OLAP架构](../../../datawarehouse/img/%E5%AE%9E%E6%97%B6OLAP%E6%9E%B6%E6%9E%84.jpg)
+- [Presto架构](../../../datawarehouse/img/presto%E6%9E%B6%E6%9E%84.jpg)
 
 ---
 

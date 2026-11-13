@@ -278,7 +278,7 @@ Checkpoint是Flink的容错机制，通过定期保存作业状态，
 - 向JobManager确认Checkpoint完成
 
 ## 相关文档
-- [Checkpoint机制](bigdata/engine/flink/core/Checkpoint机制.md)
+- [Checkpoint机制](../../../bigdata/engine/flink/core/Checkpoint%E6%9C%BA%E5%88%B6.md)
 - [FlinkCheckpoint源码分析](...)
 
 ## 自测问题
@@ -373,7 +373,7 @@ Checkpoint是Flink的容错机制，通过定期保存作业状态，
 **A:** 助手的每次回答都会引用相关文档路径，例如：
 ```
 **相关文档：**
-- [Checkpoint机制](bigdata/engine/flink/core/Checkpoint机制.md)
+- [Checkpoint机制](../../../bigdata/engine/flink/core/Checkpoint%E6%9C%BA%E5%88%B6.md)
 ```
 
 你可以直接在代码库中打开这些文件深入学习。
