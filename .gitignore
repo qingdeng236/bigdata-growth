@@ -35,3 +35,7 @@ bigdata/engine/flink/.DS_Store
 datawarehouse/.DS_Store
 bigdata/.DS_Store
 bigdata/engine/flink/.DS_Store
+
+# 本地个人记录，不提交
+对话记录.md
+大数据学习规划.md
